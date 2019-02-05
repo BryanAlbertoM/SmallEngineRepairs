@@ -97,6 +97,7 @@ nav ul li a:hover{
         margin: 0;
     }
 }
+/* CONTENT */
 .services{
     overflow: auto;
     background-color: #262626;
@@ -106,10 +107,16 @@ img.rounded-corners{
     float:left;
     opacity: 0.5;
     filter: alpha(opacity=50);/* For IE8 and earlier */
-    width: 55%;
+    width: 45%;
     height: auto;
     padding: 10px 10px;
     border-radius: 30px;
+}
+p.image-companion{
+    padding: 10px 10px;
+}
+img#rightside{
+    float:right;
 }
 /* google map */
 .mapouter{
@@ -119,4 +126,17 @@ img.rounded-corners{
     overflow:hidden;
     background:none!important;
     height:350px;width:450px;
+}
+.work{
+    overflow: auto;
+    background-color: #262626;
+    padding: 20px 20px;
+}
+img.rounded-corners right{
+    float:right;
+}
+.aboutUs{
+    overflow: auto;
+    background-color: #262626;
+    padding: 20px 20px;  
 }

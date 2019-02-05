@@ -2,8 +2,8 @@
     box-sizing: border-box;
 }
 body{
-    background:#92bde7;
-    color:#485e74;
+    background:#4b7f52;
+    color:#12130f;
     line-height: 1.6;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     padding:1em;
@@ -25,20 +25,20 @@ ul{
     color:white;
 }
 .wrapper{
-    box-shadow: 0 0 20px 0 rgba(72, 94, 116, 0.7);
+    box-shadow: 0 0 20px 0 rgba(2, 34, 7, 0.7);
 }
 .wrapper > *{
     padding: 1em;
 }
 .company-info{
-    background:#c9e6ff;
+    background:#8fcb9b;
 }
 .company-info h3, .company-info ul{
     text-align: center;
     margin:0 0 1rem 0;
 }
 .contact{
-    background:#f9feff;
+    background:#eae6e5;
 }
 /* FORM STYLES */
 
@@ -59,18 +59,27 @@ ul{
 .contact form button, .contact form input, .contact form textarea{
 width:100%;
 padding:1em;
-border: 1px solid #c9e6ff;
+border: 1px solid #8fcb9b;
 }
 .contact form button{
-    background:#c9e6ff;
+    background:#4b7f52;
     border:0;
     text-transform: uppercase;
 }
 .contact form button:hover, .contact form button:focus{
-    background:#92bde7;
+    background:#7dd181;
     color:#fff;
     outline:0;
     transition: background-color 2s ease-out;
+}
+input.rounded-corners{
+border-radius: 10px;
+}
+textarea.rounded-corners{
+    border-radius: 10px;
+}
+button.rounded-corners{
+    border-radius:10px;
 }
 /* Large Screens */
 @media(min-width:700px){
